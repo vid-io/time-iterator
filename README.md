@@ -1,5 +1,12 @@
 # TimeIterator
 
+[![Gem Version](https://badge.fury.io/rb/time-iterator.png)](http://badge.fury.io/rb/time-iterator)
+[![Build Status](https://secure.travis-ci.org/vid-io/time-iterator.png)](http://travis-ci.org/vid-io/time-iterator)
+[![Dependency Status](https://gemnasium.com/vid-io/time-iterator.png)](https://gemnasium.com/vid-io/time-iterator)
+[![Code Climate](https://codeclimate.com/github/vid-io/time-iterator.png)](https://codeclimate.com/github/vid-io/time-iterator)
+[![Coverage Status](https://coveralls.io/repos/vid-io/time-iterator/badge.png)](https://coveralls.io/r/vid-io/time-iterator)
+
+
 Utility class to iterate through times with a given step size.
 
 

@@ -32,17 +32,15 @@ class TimeIterator
   # @yield [time]
   # @return [TimeIterator]
   def each &block
-    if @start < @stop
-      curr = @start + 0
+    curr = @start + 0
 
+    if @start < @stop
       while curr <= @stop
         yield curr
         curr += @step
       end
     else
-      curr = @stop + 0
-
-      while curr >= @start
+      while curr >= @stop
         yield curr
         curr -= @step
       end
